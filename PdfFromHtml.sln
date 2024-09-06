@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfFromRazor", "PdfFromRazor\PdfFromRazor.csproj", "{19D5D37D-F7D5-4E6F-90D7-AB4100841091}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfFromHtml", "PdfFromHtml\PdfFromHtml.csproj", "{19D5D37D-F7D5-4E6F-90D7-AB4100841091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

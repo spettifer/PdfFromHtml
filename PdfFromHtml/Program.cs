@@ -3,6 +3,7 @@ using Microsoft.Playwright;
 
 // One time setup. I would imagine we would want to look into the powershell file this runs under the hood and run it as part of Octopus deploy
 // to ensure the browser engines are up to date, and maybe even cut it down to one engine like Chromium. 
+// To run this locally, uncomment the following line  and comment out the rest, and run the program once. Now comment out this line and uncomment the rest 
 //Microsoft.Playwright.Program.Main(["install"]);
 
 var sizes = new[] {1000,5000,10000};
