@@ -4,6 +4,7 @@ Works well and works fast up to at least 10k lines. Whilst it likely remains fas
 
 | Number of Lines | Approximate Memory Usage Spike | Time | File Size | Notes |
 |-----------------|--------------------------------|------|-----------|-------|
+| 1000 | 0.3GB | 1.3s | 137KB | |
 | 10,000 | 2GB | 5.259s | 818KB | |
 | 20,000 | 4.2GB | 9.351s | 1,194KB | |
 | 30,000 | 7.4GB | 15.807s | 1,760KB | |
