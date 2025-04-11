@@ -9,7 +9,7 @@ Works well and works fast up to at least 10k lines. Whilst it likely remains fas
 | 30,000 | 7.4GB | 15.807s | 1,760KB | |
 | 40,000 | 11.9GB | 24.173s | 2,328KB | | 
 | 45,000 | 14.9GB | 28.998s | 2,612KB | |
-| 50,000 |  |
+| 50,000 | 15.5GB | 20.648s | | Crashed with Protocol error. Memory usage was high but there was still over 10GB free |
 
 At 50,000 lines, Chrome crashed. This happens if you display the HTML in a normal Chrome borwser and try to print it as well. At this point, we could explore the possibility of splitting the input into smaller parts and recombining. The problem here is that this service is intended to take arbitrary HTML and render it in a PDF: This means that th service knows nothing of the content and it will split it up in a completely arbitarry fashion (maybe based on number of bytes or whatever), meaning that each chunk is no longer a valid HTML document and will not render properly.
 
