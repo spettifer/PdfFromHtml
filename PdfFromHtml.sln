@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfFromHtml", "PdfFromHtml\PdfFromHtml.csproj", "{19D5D37D-F7D5-4E6F-90D7-AB4100841091}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlGenerator", "HtmlGenerator\HtmlGenerator.csproj", "{B2118A76-49CB-4EC4-927D-9833B1F084C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{19D5D37D-F7D5-4E6F-90D7-AB4100841091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D5D37D-F7D5-4E6F-90D7-AB4100841091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D5D37D-F7D5-4E6F-90D7-AB4100841091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2118A76-49CB-4EC4-927D-9833B1F084C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2118A76-49CB-4EC4-927D-9833B1F084C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2118A76-49CB-4EC4-927D-9833B1F084C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2118A76-49CB-4EC4-927D-9833B1F084C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

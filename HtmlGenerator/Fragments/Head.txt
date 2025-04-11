@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>PDF Export</title>
+    <style type="text/css">		
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		@page {
+            size: A4;
+			margin-top: 1cm;
+			margin-left: 1cm;
+			margin-right: 1cm;
+			margin-bottom: 1.6cm;
+        }
+        html, body {
+            height: 100%;
+        }
+        body {
+            font: 9pt Calibri, "Helvetica Neue", Helvetica, sans-serif;
+            line-height: 1.25;
+        }
+        header {
+            border-bottom: 1pt transparent;
+            margin-bottom: 0.3cm;
+            padding-bottom: 0.3cm;
+        }
+		hr {
+			border: none;
+			border-bottom: 2.8pt solid #000;
+			padding-top: 7pt;
+		}
+		table {
+			/*border-collapse: collapse;*/
+			/*border-bottom: 1pt solid;*/
+        }
+        table th {
+            /*border-bottom: 1pt solid;*/
+            text-align: left;
+        }
+		tr {
+			page-break-inside: avoid;
+		}
+		td, .instructions-table th {
+			/*border: 1pt solid;*/
+		}
+        .logo {
+            height: 1.45cm;
+            display: block;
+			margin-top: 0.8cm;
+			margin-bottom: -4.5pt;
+        }
+        .heading {
+            font-size: 12.3pt;
+            padding-top: 6pt;
+        }
+		.file-details p:first-child {
+			font-size: 9.5pt;
+			padding-bottom: 2pt;
+		}
+		.file-details p:nth-child(2) {
+			padding-bottom: 6pt;
+			letter-spacing: -0.3pt;
+			font-size: 18pt;
+		}
+		.summary p.heading {
+            margin-top: 5pt;
+        }
+		.instructions p.heading {
+            margin-top: 6.5pt;
+        }
+		.summary-table {
+			max-width: 63%;
+			border-bottom: 1pt solid;
+			margin-top: 12pt;
+			margin-bottom: 5pt;
+		}
+		.summary-table th {
+			padding-bottom: 9pt;
+			padding-left: 3.5pt;
+			width: 33%;
+			font-weight: normal;
+		}
+		.summary-table td {
+			padding-top: 9pt;
+			padding-bottom: 3pt;
+			padding-left: 3.5pt;
+		}
+		.instructions-table {
+			/*border-right: 1pt solid;*/
+			table-layout: fixed;
+			width: 100%;
+			overflow-wrap: break-word;
+			letter-spacing: 0.1pt;
+		}
+		.instructions-table th {
+			padding: 2pt 3pt 16pt 3pt;
+			vertical-align: top;
+		}
+		.instructions-table th:first-child {
+			width: 102pt;
+		}
+		.instructions-table th:nth-child(2) {
+			width: 110pt;
+		}
+		.instructions-table th:nth-child(3) {
+			width: 74.2pt;
+		}
+		.instructions-table th:nth-child(4) {
+			width: 74.2pt;
+		}
+		.instructions-table th:last-child {
+			width: 74.2pt;
+		}
+		.instructions-table td {
+			padding: 1pt 5pt;
+			vertical-align: top;
+			line-height: 1.0;
+		}
+		.numeric-spacing {
+			letter-spacing: 0.3pt;
+		}
+    </style>
+</head>

@@ -6,7 +6,7 @@ using Microsoft.Playwright;
 // To run this locally, uncomment the following line  and comment out the rest, and run the program once. Now comment out this line and uncomment the rest 
 //Microsoft.Playwright.Program.Main(["install"]);
 
-var sizes = new[] {1000,5000,10000};
+var sizes = new[] { 40000 };
 
 foreach (var lineCount in sizes)
 {
