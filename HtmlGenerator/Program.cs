@@ -2,7 +2,7 @@
 
 using System.Text;
 
-const int numberOfLines = 40000;
+const int numberOfLines = 45000;
 var fileName = $"Test_html_file_{numberOfLines}.txt";
 var filePath = "D:\\_git\\PDF\\html";
 var fragmentsFolder = "D:\\_git\\PDF\\HtmlGenerator\\Fragments";
