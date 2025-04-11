@@ -1,6 +1,6 @@
 # Creating PDF Files From Html Using Playwright.NET
 
-Works well and works fast up to at least 10k lines. Whilst it likely remains faster than IronPDF for bigger files (40k lines took about 50s), the memory usage of the Chrome headless browser becomes a problem. At 10k lines the memory usage spikes by roughly 2GB for a few seconds and then immediately drops back, but this does not scale linearly. The following tests were run using the compiled app (in debug config):
+Works well and works fast up to at least 10k lines. Whilst it likely remains faster than IronPDF for bigger files (40k lines took about 50s), the memory usage of the Chrome headless browser becomes a problem. At 10k lines the memory usage spikes by roughly 2GB for a few seconds and then immediately drops back, but this does not scale linearly. The following tests were run using the compiled app (in debug config). Note that the run time in each case INCLUDES just over 0.6s for the headless browser to spin up.
 
 | Number of Lines | Approximate Memory Usage Spike | Time | File Size | Notes |
 |-----------------|--------------------------------|------|-----------|-------|
